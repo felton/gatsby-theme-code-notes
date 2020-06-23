@@ -119,6 +119,7 @@ export const Layout: FunctionComponent<LayoutProps> = ({
           boxShadow: ['md', 'md'],
           borderRadius: [0, 'default'],
           minHeight: ['100vh', 'unset'],
+          '-webkit-overflow-scrolling': 'touch',
         }}
       >
         <MenuButton
